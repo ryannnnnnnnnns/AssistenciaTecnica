@@ -13,7 +13,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        URL url = getClass().getResource("/view/TelaPrincipal.fxml");
+        URL url = getClass().getResource("/view/telaprincipal.fxml");
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Cadastro de servicos");
         primaryStage.setScene(new Scene(root));
